@@ -1,0 +1,18 @@
+{
+  "name": "district-5/blog-example-composer-package",
+  "description": "This is a description",
+  "authors": [
+    {
+      "name": "My Name",
+      "email": "my.name@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyLibraryExample\\": "src/"
+    }
+  }
+}
